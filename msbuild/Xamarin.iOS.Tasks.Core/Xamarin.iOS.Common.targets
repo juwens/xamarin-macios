@@ -826,6 +826,8 @@ Copyright (C) 2013-2016 Xamarin. All rights reserved.
 			Resources="$(AppBundleDir)"
 			SigningKey="$(_CodeSigningKey)"
 			ExtraArgs="$(CodesignExtraArgs)"
+			UseHardenedRuntime="$(UseHardenedRuntime)"
+			UseSecureTimestamp="$(UseHardenedRuntime)"
 			>
 		</Codesign>
 

@@ -1302,6 +1302,8 @@ Copyright (C) 2018 Microsoft. All rights reserved.
 			SigningKey="$(_FrameworkCodeSigningKey)"
 			ExtraArgs="$(CodesignExtraArgs)"
 			UseSecureTimestamp="$(UseHardenedRuntime)"
+			UseHardenedRuntime="$(UseHardenedRuntime)"
+			UseSecureTimestamp="$(UseHardenedRuntime)"
 			>
 		</Codesign>
 
